@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(10, 10, 10);
+    color: white;
+}
+header{
+    margin-top: 5px;
+    background: rgb(0, 0, 0);
+    padding: 5px;
+}
+.fleche{
+    display: flex;
+    margin-top: 10px;
+}
+h2{
+    margin: 2px auto;
+    font-weight: 400;
+}
+
+.container{
+    position: absolute;
+    top: 57%;
+    left: 62%;
+    translate: -50% -50%;
+    color: white;
+    width: 500px;
+}
+p{
+    color: rgb(223, 196, 196);
+    text-align: center;
+   
+}
+
+.un{
+    margin-left: px;
+}
+
+.deux{
+    margin-left: -30px;
+}
+.trois{
+    margin-left: -45px;
+}
+
+
+button{
+    width: 375px;
+    margin-left: -200px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: -50px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: .8;
+    transition:.4s;
+}
+
+
+
+
+ul{
+    display: flex;
+    text-transform: uppercase;
+    margin-left: -130px;
+}
+
+li{
+    list-style-type: none;
+    margin: 25px;
+    font-weight: 600;
+    padding-top: 13px;
+    border-radius: 7px;
+    transition: .3s;
+}
+li:hover{
+    background: rgb(255,255,255,.1);
+}
+
+
+.home{
+    border-bottom: 4px solid rgb(255, 255, 255);
+    padding-bottom: 15px;
+    border-radius: inherit;
+}
+
+.back{
+    background: rgb(23, 22, 22);
+    margin-top: -41px;
+    height: 40vh;
+    width: 1369.5px;
+    margin-left: -600px;
+    
+}
+.back p{
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.blocks{
+    padding-top: 50px;
+    display: flex;
+    margin-left: 35px;
+    background: rgb(23, 22, 22);
+}
+
+.block{
+    border: 1px solid crimson;
+    margin: 10px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+   background-image: url("baaa.png");
+   background-size:100px;
+   background-repeat: no-repeat;
+   background-position:100px;
+   color: rgb(200, 233, 185);
+}
+
+.one{
+    background: url("bo.png");
+    background-size:100px;
+    background-repeat: no-repeat;
+    background-position:100px;
+}
+
+video{
+    width: 300px;
+    height: 150px;
+    margin-left: -5px;
+    margin-top: -59px;
+}
